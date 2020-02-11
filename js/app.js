@@ -38,6 +38,16 @@ function init() {
   render();
 }
 
+function firstX() {
+  document.getElementById('turnButton').innerHTML = "Turn: X";
+  turn = "X";
+}
+
+function firstO() {
+  document.getElementById('turnButton').innerHTML = "Turn: O";
+  turn = "O";
+}
+
 function render() {
   board.forEach(function(mark, index) {
     squares[index].textContent = mark;
