@@ -100,3 +100,14 @@ function getWinner() {
 
   return winner ? winner : board.includes("") ? null : "T";
 }
+
+ if (winner === "X") {
+    keepScoreX++;
+    document.getElementById('ScoreX').innerHTML = keepScoreX;
+  } else if (winner === "O") {
+    keepScoreO++;
+    document.getElementById('ScoreO').innerHTML = keepScoreO;
+  }
+
+  return winner ? winner : board.includes("") ? null : "T";
+}
