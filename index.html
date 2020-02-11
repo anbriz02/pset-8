@@ -12,11 +12,25 @@
 
     <title>APCSP Tic-Tac-Toe</title>
   </head>
-  <body>
-    <h1>tic | tac | toe</h1>
+ <body>
+    <h1>TIC | TAC | TOE</h1>
+
+    <button id="ButtonX">X goes first</button>
+    <button id="ButtonO">O goes first</button>
 
     <div class="container column">
-      <h2>Turn: X</h2>
+      <h2 id="turnButton">Turn: X</h2>
+
+      <table id="table">
+      <tr>
+        <th>Player X </th>
+        <th>Player O </th>
+      </tr>
+      <tr>
+        <td id="ScoreX">0</td>
+        <td id="ScoreO">0</td>
+      </tr>
+      </table>
 
       <div class="container wrap" id="board">
         <div class="square"></div>
