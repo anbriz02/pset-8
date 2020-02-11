@@ -1,6 +1,6 @@
 /*
  * Sets the overall styles for the page. There aren't many. All text
- * is centered, and the  font is a monos paced R oboto (from  Google).
+ * is centered, and the font is a monospaced Roboto (from Google).
  */
 
 body {
@@ -8,7 +8,7 @@ body {
   font-family: "Roboto", monospace;
 }
 
-/* 
+/*
  * The header has a different font than the rest of the page. It's the
  * title, so it makes sense to make it a little different (and bigger).
  */
@@ -100,6 +100,7 @@ h2 {
   text-align: center;
   width: 456px;
 }
+
 
 /*
  * And a little flare when the user mouses over the button. The color scheme
